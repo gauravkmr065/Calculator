@@ -2,6 +2,7 @@
 const buttons = document.querySelectorAll('button');
 let screen = document.querySelector('#input');
 let screenValue='';
+
 for(b of buttons){
     b.addEventListener('click',(ep)=>{
         butn =ep.target.innerText;
